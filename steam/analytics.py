@@ -17,7 +17,7 @@ class SteamAnalytics:
         paid = total - free
 
         return {
-            "Gratuitos (%)": round((free / total) * 100, 2) if total else 0, sep="\n"
+            "Gratuitos (%)": round((free / total) * 100, 2) if total else 0,
             "Pagos (%)": round((paid / total) * 100, 2) if total else 0
         }
 
@@ -45,7 +45,8 @@ class SteamAnalytics:
         paid_times = [g.playtime for g in self.games if not g.is_free()]
 
         return {
-            "Tempo médio - Gratuitos": round(sum(free_times) / len(free_times), 2) if free_times else 0, sep="\n"
+            "Tempo médio - Gratuitos": round(sum(free_times) / len(free_times), 2) if free_times else 0,
             "Tempo médio - Pagos": round(sum(paid_times) / len(paid_times), 2) if paid_times else 0
         }
+
 
