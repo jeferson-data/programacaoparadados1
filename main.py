@@ -14,16 +14,17 @@ def run_analysis():
     analytics = SteamAnalytics(repo.games)
 
     print("Total de jogos:", len(repo))
-
-    print("\nPercentual Free vs Paid:")
+    
+    print("\nPercentual de Jogos Gratuitos vs Pagos:")
     print(analytics.percentual_free_vs_paid())
-
-    print("\nAno(s) com mais jogos:")
+    
+    print("\nAno(s) com maior número de lançamentos:")
     print(analytics.year_with_most_games())
-
-    print("\nTempo médio por tipo:")
+    
+    print("\nTempo médio de jogo por tipo:")
     print(analytics.average_playtime_by_type())
 
 
 if __name__ == "__main__":
+
     run_analysis()
