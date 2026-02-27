@@ -45,6 +45,7 @@ class SteamAnalytics:
         paid_times = [g.playtime for g in self.games if not g.is_free()]
 
         return {
-            "free_avg": round(sum(free_times) / len(free_times), 2) if free_times else 0,
-            "paid_avg": round(sum(paid_times) / len(paid_times), 2) if paid_times else 0
+            "Gratuitos (%)": round((free / total) * 100, 2) if total else 0,
+            "Pagos (%)": round((paid / total) * 100, 2) if total else 0
+
         }
