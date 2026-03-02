@@ -1,0 +1,32 @@
+==============================================================
+RELATÓRIO FINAL: ANÁLISE DO MERCADO DE JOGOS
+==============================================================
+
+DADOS ESTATÍSTICOS:
+-------------------
+- Total de jogos analisádos: 72.934
+- Percentual de jogos gratuitos: 17,39%
+- Percentual de jogos pagos: 82.61%
+- Ano com mais lançamntos: 2022
+- Tempo médio de jogo: (Gratuitos): 130.14
+- Tempo médio de jogo: (Pagos): 114.63
+
+------------------------------------------------------------
+SUMÁRIO DOS ACHADOS (PARECER TÉCNICO)
+------------------------------------------------------------
+vOLUME DE DADOS: A base conta com um total expressivo de 72.934 jogos,
+o que confere robustez estatística à análise.
+
+MODELO DE NEGÓCIOS: Existe uma predominância clara de jogos pagos (82,61%)
+em comparação aos gratuitos (17,39%). Isso sugere um mercado onde o
+modelo de compra única ainda é padrão principal.
+
+PICO DE MERCADO: O ano de 2022 foi identificado como o ano com maior
+número de lançamentos, refletindo possivelmente o represamento de 
+projetos pós-pandemia ou o crescimento da indústria indie.
+
+ENGAJAMENTO: curiosamente, os jogos gratuitos apresentam um tempo médio
+de jogos superior (130,14) ao dos jogos pagos (114,63). Isso pode indicar
+que modelos free-to-play retêm o jogador por mais tempo através de
+mecânicas de serviço.
+==============================================================
