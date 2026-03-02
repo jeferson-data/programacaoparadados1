@@ -7,7 +7,7 @@ DADOS ESTATÍSTICOS:
 - Total de jogos analisádos: 72.934
 - Percentual de jogos gratuitos: 17,39%
 - Percentual de jogos pagos: 82.61%
-- Ano com mais lançamntos: 2022
+- Ano com mais lançamentos: 2022
 - Tempo médio de jogo: (Gratuitos): 130.14
 - Tempo médio de jogo: (Pagos): 114.63
 
